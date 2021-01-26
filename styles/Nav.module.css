@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.nav__inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6e6;
+  width: 50%;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+}
+.nav__input {
+  flex: 1;
+  border: none;
+  background-color: #e6e6e6;
+}
+.nav__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav__icons {
+  margin: 1rem;
+}
